@@ -23,7 +23,6 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none'){
     return `## License \n
-    ------
     ${license}`
   } else {
     return ``
