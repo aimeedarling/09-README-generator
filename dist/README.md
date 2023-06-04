@@ -1,10 +1,10 @@
-# adsf
+# Portfolio
 
    ![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
   
   ## Description
 ------
-  asdf
+  A portfolio of my current projects
   
   ## Table of Contents
 ------
@@ -18,27 +18,27 @@
   
 ## Installation
 ------
-adsf
+Please visit the site [here](https://aimeedarling.github.io/aimeedarlingportfolio/)
   
 ## Usage
 ------
-adsf
+n/a
   
 ## Credits
 ------
-adsf
+n/a
   
 ## Contributing
 ------
-adsf
+no thank you
   
 ## Testing
 ------
-adsf
+n/a
   
 ## Questions
 ------
-If you have any questions you can email me at dasf. If you want to see more of my work, please visit my [github](http://github.com/adsf).
+If you have any questions you can email me at aimee.darling@gmail.com. If you want to see more of my work, please visit my [github](http://github.com/aimeedarling).
   
 ## License 
 

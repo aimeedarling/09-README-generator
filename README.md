@@ -28,6 +28,8 @@ in your terminal. Then simply follow the prompts. Your README file will generate
 
 You might want to use this app to help organize a README file for your next project.
 
+Please view a video of a demonstrating the functionality [here](https://drive.google.com/file/d/1HoqP7h63c-5o1cBkPFEfQdb5t12SwejC/view).  
+
 ## Credits
 ----
 
