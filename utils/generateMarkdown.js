@@ -23,6 +23,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none'){
     return `## License \n
+    ------
     ${license}`
   } else {
     return ``
@@ -32,12 +33,15 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
   ${renderLicenseBadge(data.license)}
   
   ## Description
+------
   ${data.description}
-
+  
   ## Table of Contents
+------
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -45,26 +49,31 @@ function generateMarkdown(data) {
 - [How to Test](#testing)
 - [Questions](#questions)
 ${renderLicenseLink(data.license)}
-
+  
 ## Installation
+------
 ${data.installation}
-
+  
 ## Usage
+------
 ${data.usage}
-
+  
 ## Credits
+------
 ${data.credits}
-
-## Contributing 
+  
+## Contributing
+------
 ${data.contributing}
-
+  
 ## Testing
+------
 ${data.test}
-
+  
 ## Questions
-
+------
 If you have any questions you can email me at ${data.email}. If you want to see more of my work, please visit my [github](http://github.com/${data.github}).
-
+  
 ${renderLicenseSection(data.license)}
 
 `;
