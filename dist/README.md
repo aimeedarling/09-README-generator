@@ -1,10 +1,10 @@
-# aimee
+# adsf
 
-   ![Github license](https://img.shields.io/badge/license-Apache%202.0-pink.svg)
+   ![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
   
   ## Description
 ------
-  aiunme
+  asdf
   
   ## Table of Contents
 ------
@@ -18,30 +18,29 @@
   
 ## Installation
 ------
-sdf
+adsf
   
 ## Usage
 ------
-asdf
+adsf
   
 ## Credits
 ------
-df
+adsf
   
 ## Contributing
 ------
-dsf
+adsf
   
 ## Testing
 ------
-sdf
+adsf
   
 ## Questions
 ------
-If you have any questions you can email me at adsf. If you want to see more of my work, please visit my [github](http://github.com/dsf).
+If you have any questions you can email me at dasf. If you want to see more of my work, please visit my [github](http://github.com/adsf).
   
 ## License 
 
-    ------
-    Apache 2.0
+    MIT
 
