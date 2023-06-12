@@ -1,10 +1,10 @@
-# Portfolio
+# asd
 
-   ![Github license](https://img.shields.io/badge/license-MIT-pink.svg)
+   
   
   ## Description
 ------
-  A portfolio of my current projects
+  adrgf
   
   ## Table of Contents
 ------
@@ -14,33 +14,31 @@
 - [How to Contribute](#contributing)
 - [How to Test](#testing)
 - [Questions](#questions)
-- [License](#license)
+
   
 ## Installation
 ------
-Please visit the site [here](https://aimeedarling.github.io/aimeedarlingportfolio/)
+adf
   
 ## Usage
 ------
-n/a
+adfg
   
 ## Credits
 ------
-n/a
+adrgt
   
 ## Contributing
 ------
-no thank you
+adsrgt
   
 ## Testing
 ------
-n/a
+aregt
   
 ## Questions
 ------
-If you have any questions you can email me at aimee.darling@gmail.com. If you want to see more of my work, please visit my [github](http://github.com/aimeedarling).
+If you have any questions you can email me at argt@. If you want to see more of my work, please visit my [github](http://github.com/aseftg).
   
-## License 
 
-    MIT
 

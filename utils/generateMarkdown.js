@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// If license is not none, return link to license
 function renderLicenseLink(license) {
   if (license !== 'none'){
     return `- [License](#license)`
@@ -19,7 +19,7 @@ function renderLicenseLink(license) {
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// If license is not none, return license header
 function renderLicenseSection(license) {
   if (license !== 'none'){
     return `## License \n
@@ -30,6 +30,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// this generates the markdown file with the users input
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -78,4 +79,5 @@ ${renderLicenseSection(data.license)}
 `;
 }
 
+//allows generateMarkdown to be used in other files in the app
 module.exports = generateMarkdown;
