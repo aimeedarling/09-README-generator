@@ -1,9 +1,12 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+//imports generateMarkdown.js
 const generateMarkdown = require('./utils/generateMarkdown')
+//needed to save generated README into a different folder as to not replace README for repo
 const path = require('path')
 
 inquirer
+    //prompts user to input information
     .prompt([
         {
             type: 'input',
@@ -50,6 +53,7 @@ inquirer
             name: 'github',
             message:'Provide your github username',
         },
+        //common license options included here
         {
             type: 'list',
             name: 'license',
@@ -57,7 +61,7 @@ inquirer
             choices: ['MIT', 'Apache 2.0', 'BSD 2', 'Mozilla Public License', 'none']
         },
     ])
-
+    //once user inputs data, create file.
     .then((data) => {
         const fileName = `README.md`
         fs.writeFile(path.join('dist',fileName), generateMarkdown(data), (error => error ? console.log('error') : console.log('Document created! ✨')))
